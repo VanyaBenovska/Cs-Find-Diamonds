@@ -1,0 +1,23 @@
+2.Diamond Problem
+In the programming languages, which permit multiple inheritance, the diamond problem is a very common problem. In our task, the diamond problem is a bit more… money driven.
+Your task is to write a program, which finds all diamonds in a string and calculates the carats of each diamond.
+Each diamond will start with the character ‘<’. After that, it will be followed by several random characters (contents of the diamond). The diamond will end with the character ‘>’.
+The carat value of the diamond is equal to the sum of all the digits in the contents of the diamond.
+Example: “<2big32diamond>”  2 + 3 + 2 = 7 carats
+If the given string contains one or more diamonds, print for each found diamond the following output:
+•	Found {caratValueOfTheDiamond} carat diamond
+If in the given string cannot be found any diamond, print:
+•	Better luck next time
+
+Examples:
+
+Input01:	
+empty<2big32diamond>useless<1another02Diamond>	
+Output:
+Found 7 carat diamond
+Found 3 carat diamond
+
+Input02:
+No>diamonds<here	
+Output:
+Better luck next time
